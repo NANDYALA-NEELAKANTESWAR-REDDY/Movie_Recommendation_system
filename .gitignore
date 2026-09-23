@@ -1,0 +1,32 @@
+# Secrets — never commit API tokens
+.streamlit/secrets.toml
+
+# Local environment and editor files
+.env
+.env.*
+.vscode/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# SQLite database — large binary, rebuild via tmdb_data_loader.py
+cinemind.db
+*.db
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Test and tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
