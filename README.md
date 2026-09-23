@@ -57,5 +57,3 @@ python tmdb_data_loader.py
 - `db.py` - SQLite database layer.
 - `tmdb_data_loader.py` - TMDB data ingestion.
 - `verify_upgrade.py` - Database verification utility.
-# Movie_Recommendation_system
-# Movie_Recommendation_system
